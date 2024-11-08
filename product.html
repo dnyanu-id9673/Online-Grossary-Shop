@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+        <link rel="icon"  type="image/icon" href="./images/t.webp">
+        <title>All Product - Grocerry Store</title>
+    <style>
+        .shopping {
+            position: relative;
+            text-align: right;
+        }
+
+        .shopping img {
+            width: 40px;
+        }
+
+        .shopping span {
+            background: red;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            position: absolute;
+            top: -5px;
+            left: 80%;
+            padding: 3px 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <a>
+                    <h1>Grosary <span>store</span></h1>
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+            <div class="shopping">
+                <img src="shopping.svg">
+                <span class="quantity">0</span>
+            </div>
+        </div>
+
+    </div>
+    
+    <!-- ---------------------------- -->
+   
+    <!-- --------------------------------------------------- -->
+     
+
+    <div  class="list">
+
+    </div>
+
+</div>
+<div class="card">
+    <h1>Card</h1>
+    <ul class="listCard">
+    </ul>
+    <div class="checkOut">
+        <div class="total">0</div>
+        <div class="closeShopping">Close</div>
+        <div class="ORDER" id="orderButton">ORDER NOW</div>
+      
+        
+        <!-- Message area -->
+        <div id="messageArea"></div>
+    </div>
+
+</div>
+<!-- 
+<div class="list-section-me">
+    <div class="list1 m-3" onclick="window.location.href='kisdsproduct.html'"; >
+        <div class="img1"><img id="img" height="260px" width="220px" src="./kids/main.webp" alt=""></div>
+        <div class="p"></div>
+        <div class="rupy">&#8377;550 Kurta</div>
+        <div class="button"><button type="button" class="btn btn-success"> Add To Card</button> <button
+                class="btn  btn-success" id="wish" onclick="Toggle1()"><i class="far fa-heart"></i> </button></div>
+
+    </div>
+
+    <div class="list1 m-3">
+        <div class="img1"   ><img id="img"  height="260px" width="220px" src="./kids/f.jpg" alt=""></div>
+        <div class="p"></div>
+        <div class="rupy">&#8377;2000 Lofer Shoes</div>
+        <div class="button"><button type="button" class="btn btn-success"> Add To Card</button> <button
+                type="button" class="btn  btn-success" id="wish2" onclick="Toggle2()"><i class="far fa-heart"></i>
+            </button></div>
+
+    </div>
+
+    <div class="list1 m-3">
+        <div class="img1"><img id="img"  height="260px" width="220px" src="./kids/g6.jpg" alt=""></div>
+        <div class="p"></div>
+        <div class="rupy">&#8377;450 Pant</div>
+        <div class="button"><button type="button" class="btn btn-success">Add To Card</button> <button type="button"
+                class="btn  btn-success" id="wish3" onclick="Toggle3()"><i class="far fa-heart"></i> </button></div>
+
+    </div>
+
+    <div class="list1 m-3">
+        <div class="img1"><img id="img"  height="260px" width="220px" src="./kids/p.webp" alt=""></div>
+        <div class="p"></div>
+        <div class="rupy">&#8377;650 Cap</div>
+        <div class="button"><button type="button" class="btn btn-success"> Add To Card</button> <button
+                type="button" class="btn  btn-success" id="wish4" onclick="Toggle4()"><i class="far fa-heart"></i>
+            </button></div>
+
+    </div>
+    <div class="list1 m-3">
+        <div class="img1"><img id="img"  height="260px" width="220px" src="./kids/m.jpg" alt=""></div>
+        <div class="p"></div>
+        <div class="rupy">&#8377;430 T-Shirt </div>
+        <div class="button"><button type="button" class="btn btn-success"> Add To Card</button> <button
+                type="button" class="btn  btn-success" id="wish5" onclick="Toggle5()"><i class="far fa-heart"></i>
+            </button> </div>
+
+    </div>
+    
+        <div class="list1 m-3">
+            <div class="img1"><img id="img"  height="260px" width="220px" src="./kids/o.jpg" alt=""></div>
+            <div class="p"></div>
+            <div class="rupy">&#8377;350 Bag</div>
+            <div class="button"><button type="button" class="btn btn-success"> Add To Card</button> <button
+                    type="button" class="btn  btn-success" id="wish6" onclick="Toggle6()"><i
+                        class="far fa-heart"></i> </button></div>
+
+        </div>
+  
+</div>
+</div> -->
+
+
+
+
+
+
+ 
+
+
+
+    <!-- -------------- footer -------------------- -->
+
+    <div class="footer">
+        <div class="container ">
+            <div class="row">
+                <!-- <div class="col-6 footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios Mobile Phone.</p>
+                    <div class="app-logo">
+                        <img src="play-store.png" alt="">
+                        <img src="app-store.png" alt="">
+                    </div> -->
+                </div>
+                <div class="col-6 footer-col-2">
+                    <a class="f-logo">
+                        <h1>Grossary  <span>store</span></h1>
+                    </a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, reiciendis.</p>
+                </div>
+                <div class="col-6 footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li> Coupons</li>
+                        <li> Blog Post</li>
+                        <li> Return Policy</li>
+                        <li> Join Affiliates</li>
+                    </ul>
+                </div>
+                <div class="col-6 footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright-reserved   dnyaneshwaripotghan@gmail.com</p>
+        </div>
+    </div>
+    <script src="product.js"></script>
+</body>
+
+</html>

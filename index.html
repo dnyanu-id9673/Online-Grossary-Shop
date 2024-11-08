@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"  type="image/icon" href="./images/t.webp">
+    <!-- <div class="logo"><img src="./images/t.webp" alt=""></div> -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <title>Grocery Store E-commerce</title>
+</head>
+<body>
+<div class="header">
+    <div class="container">
+         <div class="navbar">
+            <div class="logo">
+                <a><h1>Grocerry<span>store</span></h1></a>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="product.html">Products</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="account.html">Account</a></li>
+                </ul>
+            </nav>
+           
+            <img src="menu.png" class="menu-icon" 
+            onclick="menutooggle()"  />
+            
+               
+                <div class="shopping">
+                    <img src="shopping.svg">
+                    <span class="quantity">0</span>
+                </div>
+            
+        </div>  
+        
+        <div class="row">
+            <div class="col-1">
+                <h1>Fresh & <span id="oranic">Organic</span>   Product for  <span id="you"> You</span> </h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.<br>Sapiente in esse animi quos, dicta ad!</p>
+                <a href="" class="btn"> Shop now &#8594</a>
+            </div>
+            <div class="col-2">
+                <img src="" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ----------- featured categories ------------ -->
+    <div class="categories">
+        <div class="small-container">
+            <h1>OUR <span id="feat">FEATURES</span></h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.<br> Dicta quam accusamus in sint reprehenderit sunt.</p>
+            <div class="row">
+                <div class="col " id="col">
+                    <img src="./images/9.jpg" >
+                    <h3>Fresh  &nbsp; & <span>Organic...</span></h3>
+                </div>
+                <div class="col ">
+                    <img height="303px" src="./images/deliver.webp" >
+                    <h3>Free<span>Delivery...</span></h3>
+                </div>
+                <div class="col ">
+                    <img height="303px" src="./images/buy.webp" >
+                    <h3>Easy<span>PayMents...</span></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- --------------  our  categories ----------- -->
+
+    <div class="small-container">
+        <h2 class="title">...OUR CATEGORIES...</h2>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto <br>corrupti dolores distinctio delectus cupiditate blanditiis.</p>
+
+        <h1 class="title">...VEGETABLE...</h1>
+        <div class="row">
+            <div class="col-4">
+                <a href="product.html">
+                    <img height="301px"  src="./images/veg2.jpg">
+                </a>
+                
+                <h4>Fresh & Organic Vegetable</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p></p>
+            </div>
+            <div class="col-4">
+                <img height="301px"  src="./images/33.jpg">
+                <h4> Fresh & Organic Vegetable  </h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> </p>
+            </div>
+            <div class="col-4">
+                <img height="301px"  src="./images/3.webp">
+                <h4>Fresh & Organic Vegetable</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p> </p>
+            </div>
+            <div class="col-4">
+                <img height="301px"  src="./images/ved3.jpg">
+                <h4> Frsh & Organic Vegetable</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p> </p>
+            </div>
+        </div>
+        <h2 class="title">FRUITS PRODUCTS</h2>
+        <div class="row">
+            <div class="col-4">
+                <img height="301px"  src="./images/a.webp">
+                <h4> Fresh & Organic Food</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p> </p>
+            </div>
+            <div class="col-4">
+                <img height="301px"  src="images/2.jpg">
+                <h4> Fresh & Organic Food</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p> </p>
+            </div>
+            <div class="col-4">
+                <img height="301px"  src="./images/fr2.jpg">
+                <h4> Fresh & Organic Food</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half"></i>
+                </div>
+                <p> </p>
+            </div>
+            
+            <div class="col-4">
+                <img height="301px"  src="images/fq.jpg">
+                <h4> Fresh & Organic Food</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+                <p> </p>
+            </div>
+            <h2 class="title">PROTEIN PRODUCTS</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img height="301px"  src="./images/protin2.jpg">
+                    <h4> Fresh Food</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <p> </p>
+                </div>
+                <div class="col-4">
+                    <img height="301px"  src="./images/protin1.jpg">
+                    <h4>Fresh Food</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <p> </p>
+                </div>
+                <div class="col-4">
+                    <img height="301px" src="./images/protin3.jpg">
+                    <h4> Fresh Food</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half"></i>
+                    </div>
+                    <p> </p>
+                </div>
+                <div class="col-4">
+                    <img height="301px" src="./images/fe1.jpg">
+                    <h4> Fresh Food</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <p> </p>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+
+    <!-- --------------------- testimonials -------------- -->
+    <h1 class="title">...CUSTOMER REVIEW...</h1>
+    <div class="testimonial">
+         
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p id="p">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto distinctio suscipit reprehenderit nisi, enim architecto beatae error voluptatem sunt voluptas!</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="user-1.png" alt="">
+                    <h3>Tanuja<span>Pathan</span></h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p id="p">about your product and their overall experience with the product, what they need and expect from your product, and how well your product is able to fulfill those needs and expectations.
+                    </p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="user-2.png" alt="">
+                    <h3>Esha<span> Kute</span></h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p id="p">your product and their overall experience with the product, what they need and expect from your product, and how well your product is able to fulfill those needs and expectations.</p>                 
+                        <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                    <img src="user-3.png" alt="">
+                    <h3>Arya<span>Sase</span></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+       <!-- --------------- our blog --------------- -->
+  
+       
+    <!-- ---------------- brands --------------------  -->
+
+  
+
+    <!-- -------------- footer -------------------- -->
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios Mobile Phone.</p>
+                   
+                </div>
+                <div class="col-6 footer-col-2">
+                    <a class="f-logo">
+                   <h1>Grossary<span>Store</span></h1> 
+                        
+                    </a>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis, reiciendis.</p>
+                </div>
+                <div class="col-6 footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li> Coupons</li>
+                        <li> Blog Post</li>
+                        <li> Return Policy</li>
+                        <li> Join Affiliates</li>
+                    </ul>
+                </div>
+                <div class="col-6 footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>Youtube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">copyright-reserved  dnyaneshwaripotghan@gmail.com</p>
+        </div>
+    </div>
+
+<!-------- js for toggole menu ----------->
+<script>
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+    function menutooggle(){
+        if(MenuItems.style.maxHeight == "0px")
+        {
+            MenuItems.style.maxHeight = "200px";
+        }
+        else
+        {
+            MenuItems.style.maxHeight = "0px";
+    }
+    }
+</script>
+
+
+</body>
+</html>
